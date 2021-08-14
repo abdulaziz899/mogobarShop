@@ -81,7 +81,7 @@ const FeaturedProducts = () => {
       console.log(settings);
 
     return (
-        <div className="container bg-light p-2">
+        <div className="container bg-light mb-5 p-2">
             <h4>Featured Products</h4>
             <div className="line">
                 

@@ -8,7 +8,7 @@ const SideBar = () => {
                 <a href="#" className="text-decoration-none"><img  src="https://mogobari.com/public/uploads/all/kGypKDKmgj4rFNgsK8KOXy85SdPTenyFH9Pm4U9s.png" alt=""/> Fashion & Clothing </a>
            </div>
            <div className="categoriesHome">
-                <a href="#" className="text-decoration-none"><img  src="https://mogobari.com/public/uploads/all/FrGX6ZaiKGe87PWeXOE6qojOenGGm9MlsEaYXHjQ.png" alt=""/> Electronics Devices & Accessories</a>
+                <a href="#" className="text-decoration-none"><img  src="https://mogobari.com/public/uploads/all/FrGX6ZaiKGe87PWeXOE6qojOenGGm9MlsEaYXHjQ.png" alt=""/> Electronic Devices&Accessories</a>
            </div>
            <div className="categoriesHome">
                 <a href="#" className="text-decoration-none"><img  src="https://mogobari.com/public/uploads/all/8LWrgKKsOCQQ5paM3FbOE19psvehzr3dmFYEEq8Q.png" alt=""/> Electrical Devices & Accessories</a>
