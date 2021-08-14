@@ -1,0 +1,11 @@
+/* .foodContainer img{
+    width: 300px;
+    height: 300px;
+} */
+.foodContainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 20px;
+    width: 100%;
+    height: auto;
+}
