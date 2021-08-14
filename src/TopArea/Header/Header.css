@@ -1,0 +1,100 @@
+.header-area {
+    z-index: 1020 !important;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%) !important;
+}
+.header-area .top-area .logo {
+    width: 235px;
+    height: 80px;
+    margin: 7px 0;
+}
+.header-area .top-area .form-area {
+    width: 55%;
+}
+.header-area .top-area .form-area .searchArea {
+    display: flex !important;
+}
+.header-area .top-area .form-area .searchArea input {
+    border-color: #207567;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    padding: 0.7rem 1.4rem;
+}
+.header-area .top-area .form-area .searchArea input::placeholder {
+    font-size: 17px !important;
+}
+.header-area .top-area .form-area .searchArea input:focus {
+    color: none;
+    background-color: none;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.header-area .top-area .form-area .searchArea .button {
+    background-color: #207567 !important;
+    border-top-left-radius: 0 !important;
+    color: #fff;
+    border-bottom-left-radius: 0 !important;
+    padding: 0.7rem 1.5rem;
+    transition: all .3s ease;
+}
+.header-area .top-area .form-area .searchArea .button:hover {
+    background-color: #E74C3C !important;
+}
+.header-area .top-area .form-area .searchArea .button:focus {
+    color: none;
+    background-color: none;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+.header-area .top-area .auth-area a {
+    font-weight: bolder !important;
+    font-size: 17px !important;
+    color: #207567 !important;
+    margin-top: -10px;
+    margin-bottom: -5px;
+    font-weight: 700 !important;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+.header-area .top-area .auth-area a:hover {
+    text-decoration: none !important;
+    color: #E74C3C !important;
+}
+.header-area .top-area .cart-box a {
+    color: #207567 !important;
+    text-decoration: none;
+}
+.header-area .top-area .cart-box a .badgeColor {
+    background-color: #207567;
+    color: #fff;
+}
+.header-area .top-area .cart-box a:hover {
+    text-decoration: none;
+}
+.header-area .top-area .cart-box a svg {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+
+
+
+
+/*  */
+.header-area .navbar-area {
+    background-color: #207567 !important;
+} 
+.header-area .navbar-area ul a {
+    text-decoration: none;
+    color: white !important;
+    opacity: 0.6 !important;
+    font-size: 16.1px !important;
+    font-weight: 600 !important;
+    padding: 10px 22px !important;
+    transition: all .3s ease !important;
+} 
+.header-area .navbar-area ul a:hover {
+    opacity: 1 !important;
+} 
+

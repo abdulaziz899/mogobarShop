@@ -1,0 +1,17 @@
+.topNavbar-area {
+    background-color: #ecf0f1 !important;
+    z-index: 1035 !important;
+}
+.topNavbar-area .menu-area li a {
+    font-weight: bold;
+    color: #207567 !important;
+    text-decoration: none;
+    transition: all .3s ease;
+    font-size: 14px !important;
+}
+.topNavbar-area .menu-area li a:hover {
+    color: #E74C3C !important;
+}
+.topNavbar-area .menu-area li .badge-primary {
+    background-color: #207567;
+}
