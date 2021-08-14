@@ -7,9 +7,10 @@ import Home from './components/Home/Home';
 function App() {
   return (
     <div style={{backgroundColor:"#f2f3f8"}}>
+      <TopArea />
       <Home></Home>
       <FeaturedProducts></FeaturedProducts>
-      <TopArea />
+      
     </div>
   );
 }
