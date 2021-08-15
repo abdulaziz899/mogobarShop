@@ -11,7 +11,7 @@ const Header = () => {
                 <div className="container">
                     <div className="d-flex align-items-center">
                         <div className="pr-5">
-                            <a href="#" className="mr-5">
+                            <a href="#" className="mr-3">
                                 <img src={logo} alt="" className="logo" />
                             </a>
                         </div> 
@@ -40,14 +40,14 @@ const Header = () => {
                             </li>
                         </div>
 
-                        <div className="d-none d-lg-block  align-self-stretch ml-4 mr-0" data-hover="dropdown">
+                        <div className="d-none d-lg-block  align-self-stretch ml-3 mr-0" data-hover="dropdown">
                             <div className="cart-box dropdown h-100" id="cart_items">
                                 <a href="#" className="d-flex align-items-center text-reset h-100" data-toggle="dropdown" data-display="static">
                                     <FontAwesomeIcon style={{color: "#207567;"}} icon={faShoppingCart} />
                                     
-                                    <span className="flex-grow-1 ml-1">
+                                    <span className="flex-grow-1">
                                         <span className="badge badgeColor badge-inline badge-pill">0</span>
-                                        <span style={{color: "#207567;"}} className="d-none d-xl-block"><strong>Cart</strong></span>
+                                        <span style={{color: "#207567;", fontSize: '13px', fontWeight: 'bold'}} className="d-none d-xl-block">Cart</span>
                                     </span>
                                 </a>
 

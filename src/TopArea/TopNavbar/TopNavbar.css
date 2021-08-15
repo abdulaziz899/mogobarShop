@@ -7,7 +7,8 @@
     color: #207567 !important;
     text-decoration: none;
     transition: all .3s ease;
-    font-size: 14px !important;
+    font-size: 13px !important;
+    margin-left: 5px;
 }
 .topNavbar-area .menu-area li a:hover {
     color: #E74C3C !important;
