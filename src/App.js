@@ -7,8 +7,8 @@ import "slick-carousel/slick/slick-theme.css";
 function App() {
   return (
     <div style={{backgroundColor:"#f2f3f8"}}>
-      <FeaturedProducts></FeaturedProducts>
       <TopArea />
+      <FeaturedProducts></FeaturedProducts>
     </div>
   );
 }
