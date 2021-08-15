@@ -1,0 +1,23 @@
+.regularOfferContainer{
+    width: 100%;
+}
+.regularOfferContainer img{
+    width: 100%;
+}
+
+.regularMain{
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    grid-gap: 20px;
+}
+
+@media(max-width:900px){
+    .regularMain{
+        grid-template-columns:  auto auto;
+    }
+}
+@media(max-width:600px){
+    .regularMain{
+        grid-template-columns: auto;
+    }
+}
