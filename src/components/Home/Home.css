@@ -2,6 +2,9 @@
     display: flex;
     justify-content: space-between;
 }
+.sidebarHide{
+    width: 350px;
+}
 
 @media(max-width:990px){
     .sidebarHide{

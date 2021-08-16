@@ -6,11 +6,14 @@ import Slider from "react-slick";
 
 const FeaturedProductDetails = (props) => {
     const{price,id,img,name}=props.featuredProduct;
+    const handleClick=(id)=>{
+        console.log("click me",id);
+    }
     
     return (
         <div className="pt-3 ">
-            <div className="card-deck w-100 cart ">
-                <div class="card">
+            <div  className="card-deck w-100 cart ">
+                <div onClick={()=>handleClick(id)} class="card">
                     <div className="cartContainer">
                         
                         <img className="card-img-top" src={img} alt="i"/>
