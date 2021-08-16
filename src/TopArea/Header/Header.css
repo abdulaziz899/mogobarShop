@@ -3,12 +3,12 @@
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%) !important;
 }
 .header-area .top-area .logo {
-    width: 235px;
-    height: 80px;
+    width: 215px;
+    height: 75px;
     margin: 7px 0;
 }
 .header-area .top-area .form-area {
-    width: 55%;
+    width: 56%;
 }
 .header-area .top-area .form-area .searchArea {
     display: flex !important;
@@ -17,7 +17,7 @@
     border-color: #207567;
     border-top-right-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
-    padding: 0.7rem 1.4rem;
+    padding: 0.6rem 1.4rem;
 }
 .header-area .top-area .form-area .searchArea input::placeholder {
     font-size: 17px !important;
@@ -34,7 +34,7 @@
     border-top-left-radius: 0 !important;
     color: #fff;
     border-bottom-left-radius: 0 !important;
-    padding: 0.7rem 1.5rem;
+    padding: 0.6rem 1.4rem;
     transition: all .3s ease;
 }
 .header-area .top-area .form-area .searchArea .button:hover {
@@ -49,7 +49,7 @@
 }
 .header-area .top-area .auth-area a {
     font-weight: bolder !important;
-    font-size: 17px !important;
+    font-size: 14px !important;
     color: #207567 !important;
     margin-top: -10px;
     margin-bottom: -5px;
@@ -68,12 +68,13 @@
 .header-area .top-area .cart-box a .badgeColor {
     background-color: #207567;
     color: #fff;
+    font-size: 9px !important;
 }
 .header-area .top-area .cart-box a:hover {
     text-decoration: none;
 }
 .header-area .top-area .cart-box a svg {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-right: 10px;
 }
 
@@ -98,3 +99,9 @@
     opacity: 1 !important;
 } 
 
+
+
+
+@media(max-width:690px){
+    
+}

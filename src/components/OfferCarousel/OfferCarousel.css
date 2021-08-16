@@ -1,6 +1,7 @@
 .offerImg img{
     width: 100%;
     height: 457px;
+    border-radius: 5px;
 }
 .nextBtnControl{
     width: 40px;

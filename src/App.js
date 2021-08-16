@@ -10,7 +10,6 @@ function App() {
       <TopArea />
       <Home></Home>
       <FeaturedProducts></FeaturedProducts>
-      
     </div>
   );
 }
